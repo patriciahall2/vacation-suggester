@@ -9,7 +9,7 @@ and jQuery. The project was tested and found to be successfully displayed on the
 be downloaded at: http://getbootstrap.com/ I used the uncompressed jQuery version 1.12.0 for this project which can be downloaded here:
 http://code.jquery.com/jquery-1.12.0.js. To use this website:
 1. Open a terminal window on your computer.
-2. Type this command in the terminal: git clone https://github.com/patriciahall2/vacation-suggster
+2. Type this command in the terminal: git clone https://github.com/patriciahall2/vacation-suggester
 3. A clone of the Vacation Suggester directory should appear in your current working directory.  
 4. Open vacation-suggester.html in your Google Chrome browser.
 5. Answer the questions on the webpage. After completing the questionnaire a vacation suggestion will appear on the computer screen.
