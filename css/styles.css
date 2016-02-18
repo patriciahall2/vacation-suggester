@@ -1,9 +1,15 @@
-h1{
-  color:#fc913a
+h1 {
+  text-align: center;
+  color:#2984ff;
+  }
+img.displayed{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-
-p {
-  color:#ff4e50;
+h3 {
+  text-align: center;
+  color:#3fdba8
 }
 #swim, #hot, #hike, #museum{
   display: none;
