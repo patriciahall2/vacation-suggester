@@ -1,7 +1,11 @@
 h1 {
   text-align: center;
+  background-color: #ff9fad;
   color:#2984ff;
   }
+body {
+  background-color: #ffeaea;
+}
 img.displayed{
   display: block;
   margin-left: auto;
@@ -16,10 +20,12 @@ h4 {
   text-align: center;
   color:#ff4e50;
 }
-#swim, #hot, #hike, #museum {
-
-
-  }
+p {
+  color: red;
+}
+#hawaii, #jtree, #gorge, #losangeles {
+    display: none;
+}
 img {
   display: block;
   margin-left: auto;
