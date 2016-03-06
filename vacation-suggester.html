@@ -13,42 +13,40 @@
       <img class="displayed" src="images/palms.jpg" alt="A sunny beach with many palm trees.">
       <br></br>
       <form id="userInput">
-        <div id="radio-form">
-          <h3>Do you like spending time in nature or in culture-rich cities?</h3>
-          <div class="radio">
-            <label><input type="radio" name="setting1" id="setting1" value ="nature">In nature</label>
-          </div>
-        <div class="radio">
-          <label><input type="radio" name="setting1" id="setting1" value ="city">In cities</label>
-       </div>
+        <label for ="setting1">Do you like spending time in nature or in culture-rich cities?</label>
+        <select id="setting1" class=form-control>
+          <option value="nature">In Nature</option>
+          <option value="city">In Cultural Centers</option>
+        </select><br />
        <h3>Do you prefer palm trees or pine trees?</h3>
        <div class="radio">
-         <label><input type="radio" name="trees" id="trees" value ="palm">Palm trees</label>
+         <label><input type="radio" name="trees" id="trees1" value ="palm">Palm trees</label>
        </div>
        <div class="radio">
-         <label><input type="radio" name="trees" id="trees" value ="pine">Pine trees</label>
+         <label><input type="radio" name="trees" id="trees2" value ="pine">Pine trees</label>
        </div>
        <h3>Do you like to hiking and camping?</h3>
        <div class="radio">
          <label><input type="radio" name="yesno1" id="yesno1" value ="yes">Yes</label>
        </div>
        <div class="radio">
-         <label><input type="radio" name="yesno1" id="yesno1" value ="no">No</label>
+         <label><input type="radio" name="yesno1" id="yesno2" value ="no">No</label>
        </div>
        <h3>Do you prefer the sparce beauty of the desert or lush green landscapes?</h3>
        <div class="radio">
-         <label><input type="radio" name="setting2" id="setting2" value ="desert">Sparce desert beauty</label>
+         <label><input type="radio" name="setting2" id="dry" value ="desert">Sparce desert beauty</label>
        </div>
        <div class="radio">
-         <label><input type="radio" name="setting2" id="setting2" value ="lush">Lush green landscape</label>
+         <label><input type="radio" name="setting2" id="humid" value ="lush">Lush green landscape</label>
        </div>
        <h3>Would you enjoy spending hours at modern and contemporaty art museums?</h3>
        <div class="radio">
-         <label><input type="radio" name="art" id="art" value ="definitely">Definitely</label>
+         <label><input type="radio" name="art" id="ja" value ="definitely">Definitely</label>
        </div>
        <div class="radio">
-         <label><input type="radio" name="art" id="art" value ="nope">Nope</label>
+         <label><input type="radio" name="art" id="nein" value ="nope">Nope</label>
        </div>
+       <button type="submit" class="btn"> Click to view your vacation suggestion</button>
      </form>
         <div id="hawaii">
           <h4>Go to Hawaii!</h4>
