@@ -9,7 +9,7 @@ $(document).ready(function() {
     var trek = $("input:radio[name=trek]:checked").val();
     var culture = $("input:radio[name=culture]:checked").val();
 
-if (setting1 === "nature") {
+if (setting1 === "nature" || trees === "pine" || hiking === "yes")  {
   $("#gorge").show();
 };
 
