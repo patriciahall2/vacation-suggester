@@ -9,11 +9,11 @@ $(document).ready(function() {
     var trek = $("input:radio[name=trek]:checked").val();
     var culture = $("input:radio[name=culture]:checked").val();
 
-if (setting1 === "nature" || trees === "pine" || hiking === "yes")  {
+if (setting1 === "nature" ||trees === "pine" || hiking === "yes")  {
   $("#gorge").show();
 }else if (setting1 === "city" || hiking === "no" || museums === "oui") {
   $("#losangeles").show();
-}else if (hiking === "yes" && setting2 === "desert") {
+}else if (setting1 === "nature" && hiking === "yes" && setting2 === "desert" ) {
   $("#jtree").show();
 };
 
