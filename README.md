@@ -1,8 +1,7 @@
 # Vacation-Suggester by Patricia Hall
 https://github.com/patriciahall2/vacation-suggester
 #### SYNOPSIS
-Vacation Suggester is a webpage designed to suggest a vacation destination that meets your preferences.  The website asks you 5 yes or no
-questions and after receiving all 5 answers the page will suggest a vacation destination for you.  
+Vacation Suggester is a webpage designed to suggest a vacation destination based on your preferences.  The website asks you 5 questions and after receiving your answers will suggest a vacation destination for you.  
 #### Program Setup Instructions
 This project was written using the Unix operating system, Atom text editor, in HTML language, using CSS for styling, Bootstrap, JavaScript,
 and jQuery. The project was tested and found to be successfully displayed on the Google Chrome web browser. The Bootstrap boilerplate can
@@ -12,7 +11,7 @@ http://code.jquery.com/jquery-1.12.0.js. To use this website:
 2. Type this command in the terminal: git clone https://github.com/patriciahall2/vacation-suggester
 3. A clone of the Vacation Suggester directory should appear in your current working directory.  
 4. Open vacation-suggester.html in your Google Chrome browser.
-5. Answer the questions on the webpage. After completing the questionnaire a vacation suggestion will appear on the computer screen.
+5. Answer the questions on the webpage. After completing the questionnaire click the button at the bottom of the page and scroll down. A vacation suggestion will appear at the bottom of the page.
 #### The MIT License (MIT)
 Copyright (c) 2016 Patricia Hall
 
