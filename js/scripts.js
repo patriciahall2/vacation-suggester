@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  // $("form#radio-form button").click(function(event){
+
   $("#hawaii, #jtree, #gorge, #losangeles").hide();
   $("#hawaii, #jtree, #gorge, #losangeles").hide();
   $("form#userInput button").click(function(event) {
@@ -16,8 +16,8 @@ $(document).ready(function() {
        $("#losangeles").show();
       } else if ((setting1 === "nature") && (trees === "palm") && (setting2 === "lush")) {
        $("#hawaii").show();
-     } else {
-       $("#jtree").show();  
+      } else {
+       $("#jtree").show();
 
     };
 
