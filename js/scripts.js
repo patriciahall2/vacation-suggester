@@ -6,18 +6,21 @@ $(document).ready(function() {
 
     var setting1 = $("select#setting1").val();
     var trees = $("select#trees").val();
-    var trek = $("select#hiking").val();
-    var climate = $("select#setting2").val();
-    var art = $("select#museums").val();
+    var hiking = $("select#hiking").val();
+    var setting2 = $("select#setting2").val();
+    var museums = $("select#museums").val();
 
+    if ((setting1 === "nature") && (trees === "pine") && (hiking === "yes"))  {
+       $("#gorge").show();
+      } else if ((setting1 === "city") && (hiking === "no") && (museums === "oui")) {
+       $("#losangeles").show();
+      } else if ((setting1 === "nature") && (trees === "palm") && (setting2 === "lush")) {
+       $("#hawaii").show();
+     } else {
+       $("#jtree").show();  
 
-if (setting1 === "nature" && trees === "pine")  {
-  $("#gorge").show();
-} else if (setting1 === "city" || hiking === "no" || museums === "oui") {
-  $("#losangeles").show();
-} else {
-  $("#hawaii").show();
-};
+    };
+
 
 
 
