@@ -5,20 +5,22 @@ $(document).ready(function() {
   $("form#userInput button").click(function(event) {
 
     var setting1 = $("select#setting1").val();
-    var trees = $("input:radio[name=city]:checked").val();
-    var trek = $("input:radio[name=trek]:checked").val();
-    var culture = $("input:radio[name=culture]:checked").val();
+    var trees = $("select#trees").val();
+    var trek = $("select#hiking").val();
+    var climate = $("select#setting2").val();
+    var art = $("select#museums").val();
 
-if (setting1 === "nature" ||trees === "pine" || hiking === "yes")  {
+
+if (setting1 === "nature" && trees === "pine")  {
   $("#gorge").show();
-}else if (setting1 === "city" || hiking === "no" || museums === "oui") {
+} else if (setting1 === "city" || hiking === "no" || museums === "oui") {
   $("#losangeles").show();
-}else if (setting1 === "nature" && hiking === "yes" && setting2 === "desert" ) {
-  $("#jtree").show();
+} else {
+  $("#hawaii").show();
 };
 
 
 
 event.preventDefault();
- });
+});
 });
