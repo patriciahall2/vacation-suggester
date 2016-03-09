@@ -18,8 +18,7 @@ $(document).ready(function() {
        $("#hawaii").show();
       } else {
        $("#jtree").show();
-
-    };
+      };
 
 
 
